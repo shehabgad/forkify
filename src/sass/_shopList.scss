@@ -1,0 +1,33 @@
+#shopping-list {
+  h2 {
+    margin: 3rem 0;
+  }
+  #ingridents-list {
+    padding: 0 2.5rem;
+    .ingrident-item {
+      border-bottom: 1px solid $color-grey-light-2;
+      padding-bottom: 2rem;
+      margin-bottom: 1.8rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .ing-qt-box {
+        border: 1px solid $color-grey-light-1;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1rem;
+        border-radius: 5px;
+        input {
+          border: none;
+          padding: 0.1rem;
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+      p {
+      }
+    }
+  }
+}
